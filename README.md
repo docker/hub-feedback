@@ -1,6 +1,6 @@
 # hub-feedback
 
-Use this repository to file bugs against the [hub site](https://hub.docker.com/).
+Use this repository to file bugs against the [hub site](https://hub.docker.com/) (feature requests should be filed on the [Docker Roadmap](https://github.com/docker/roadmap)).
 
 1. Look to see if someone already filled the bug, if not add a new one.
 2. Add a good title and description with the following information.
