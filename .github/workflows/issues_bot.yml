@@ -14,4 +14,3 @@ jobs:
           days-before-stale: 365
           days-before-close: 15
           exempt-issue-labels: 'enhancement,feature-request,investigating,needs-work,pending-deploytriaged,'
-          
