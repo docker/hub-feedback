@@ -14,4 +14,4 @@ jobs:
           days-before-stale: 365
           days-before-close: 15
           exempt-issue-labels: 'enhancement,feature-request,investigating,needs-work,pending-deploytriaged,'
-          operations-per-run: 1000
+          operations-per-run: 250
