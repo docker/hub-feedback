@@ -31,7 +31,7 @@ Please go to https://hub.docker.com/support/contact/ and open a ticket so our su
 activate your account. 
 
 ## Password Reset Issues
-Please go to the [reset-password page](https://id.docker.com/reset-password/) in order to reset the
+Please go to the [reset-password page](https://hub.docker.com/settings/general) in order to reset the
 password for your Docker Hub account.
 
 ## Deleting User Accounts and Organization Accounts
