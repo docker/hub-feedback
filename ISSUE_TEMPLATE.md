@@ -2,7 +2,6 @@
 
 Are you in the right place?
 
-
 ## General Issues
 Please use https://forums.docker.com to discuss general issues with your environment, how to set
 things up, how to use Docker.
@@ -20,11 +19,9 @@ thumbs up an existing issue to express your concern.
 
 -->
 
-
 <!--
 
 Great, you are in the right place! Do one of these common issues describe the problem you are experiencing?
-
 
 ## Account Activation Issues
 Please go to https://hub.docker.com/support/contact/ and open a ticket so our support team can
@@ -39,10 +36,7 @@ Please see https://docs.docker.com/docker-hub/deactivate-account/ for next steps
 
 -->
 
-
-
 ## Problem description
-
 
 ## `docker info` output
 <!--
@@ -50,43 +44,35 @@ This is only necessary if the problem includes using Docker Desktop or Docker En
 to replicate the issue you are seeing
 -->
 Docker Info:
+
 ```yaml
 
 ```
 
-
 ## Debug Information
-**Browser name and version**:
 
+**Browser name and version**:
 
 <!-- if applicable, where did you get your error? -->
 **URL**:
 
-
 <!-- please include your timezone -->
-**Timetamp or time range**: 
-
+**Timetamp or time range**:
 
 <!--  address of the machine which encountered the error -->
-**Public IP**: 
-
+**Public IP**:
 
 **Hub Username**:
 
-
 ## Error messages (on screen or in browser console)
-
-
 
 ## Screenshots of the issue (if applicable)
 <!--
 Please redact or blur any private information!
 -->
 
-
-
-
 # Task List
-- [ ] This is **NOT** a security issue
+
+- [ ] This is **NOT** a security issue. Please follow the [Security Policy](./SECURITY.md) for reporting security issues.
 - [ ] I do **NOT** have a Docker subscription
 - [ ] I have looked through other issues and they do **NOT** apply to me
