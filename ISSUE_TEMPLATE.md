@@ -73,6 +73,6 @@ Please redact or blur any private information!
 
 # Task List
 
-- [ ] This is **NOT** a security issue. Please follow the [Security Policy](./SECURITY.md) for reporting security issues.
+- [ ] This is **NOT** a security issue. Please follow the [Security Policy](https://github.com/docker/hub-feedback/security/policy) for reporting security issues.
 - [ ] I do **NOT** have a Docker subscription
 - [ ] I have looked through other issues and they do **NOT** apply to me
