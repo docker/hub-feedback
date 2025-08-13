@@ -1,0 +1,45 @@
+name: Auto Label and Comment on New Issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label-and-comment:
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Add new label to issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['new']
+            });
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const message = `Thanks for your feedback :thumbsup:. 
+            
+            Our team will soon take a look at your issue.
+            
+            In the meantime, feel free to give us as many details as possible, as this will speed up the resolution.
+            `
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: message
+            });
