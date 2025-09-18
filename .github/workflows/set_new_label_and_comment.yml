@@ -30,11 +30,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const message = `Thanks for your feedback :thumbsup:. 
+            const message = `Thank you for your feedback :thumbsup:.
             
-            Our team will soon take a look at your issue.
+            Our team will review your issue shortly.
+            In the meantime, feel free to provide as many details as possible, as this will speed up the resolution.
             
-            In the meantime, feel free to give us as many details as possible, as this will speed up the resolution.
+            If you need assistance rather than providing feedback, please contact the Docker support team via https://www.docker.com/support/ for a prompt response, and close this issue.
             `
             
             github.rest.issues.createComment({
