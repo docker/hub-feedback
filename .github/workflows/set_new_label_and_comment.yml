@@ -35,7 +35,7 @@ jobs:
             Our team will review your issue shortly.
             In the meantime, feel free to provide as many details as possible, as this will speed up the resolution.
             
-            If you need assistance rather than providing feedback, please contact the Docker support team via https://www.docker.com/support/ for a prompt response, and close this issue.
+            If you need assistance rather than providing feedback, please contact the Docker support team via https://hub.docker.com/support/contact for a prompt response, and close this issue.
             `
             
             github.rest.issues.createComment({
